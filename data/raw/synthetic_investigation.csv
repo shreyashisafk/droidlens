@@ -1,0 +1,24 @@
+record_id,timestamp,event_type,source,actor,target,location,duration,amount,details
+EVT-001,2026-08-29 09:15:00,CALL,telecom_cdr,Person_A,Person_B,Delhi,180,,Routine check-in call
+EVT-002,2026-08-29 10:30:00,MESSAGE,sms_gateway,Person_D,Person_E,Noida,,,Meeting scheduled for evening
+EVT-003,2026-08-29 11:00:00,TRANSACTION,bank_ledger,Person_B,Person_F,Delhi,,15000,Consulting fee transfer
+EVT-004,2026-08-29 14:00:00,CALL,telecom_cdr,Person_A,Person_B,Delhi,45,,Urgent coordination call
+EVT-005,2026-08-29 14:04:00,CALL,telecom_cdr,Person_A,Person_B,Delhi,60,,Follow-up call
+EVT-006,2026-08-29 14:08:00,MESSAGE,sms_gateway,Person_A,Person_B,Delhi,,,Encrypted token sent
+EVT-007,2026-08-29 14:12:00,MESSAGE,sms_gateway,Person_B,Person_C,Delhi,,,Action required at warehouse
+EVT-008,2026-08-29 14:15:00,CALL,telecom_cdr,Person_A,Person_C,Delhi,120,,Direct confirmation
+EVT-009,2026-08-29 14:18:00,CALL,telecom_cdr,Person_A,Person_B,Delhi,30,,Status update
+EVT-010,2026-08-29 14:22:00,TRANSACTION,bank_ledger,Person_C,Person_D,Delhi,,250000,High-value instant transfer
+EVT-011,2026-08-29 14:25:00,CALL,telecom_cdr,Person_A,Person_B,Delhi,90,,Transfer confirmed
+EVT-012,2026-08-29 14:28:00,MESSAGE,sms_gateway,Person_A,Person_D,Delhi,,,Dispatch package now
+EVT-013,2026-08-29 14:32:00,CALL,telecom_cdr,Person_A,Person_B,Delhi,40,,Checkpoint clear
+EVT-014,2026-08-29 14:35:00,LOCATION_PING,cell_tower,Person_D,Tower_Noida_Sector62,Noida,,,Cell tower triangulation ping
+EVT-015,2026-08-29 14:38:00,CALL,telecom_cdr,Person_A,Person_E,Delhi,55,,Secondary notification
+EVT-016,2026-08-29 14:40:00,MESSAGE,sms_gateway,Person_A,Person_B,Delhi,,,Operation complete
+EVT-017,2026-08-29 15:00:00,LOCATION_PING,cell_tower,Person_E,Tower_Delhi_Central,Delhi,,,Tower location snapshot
+EVT-018,2026-08-29 15:15:00,LOCATION_PING,cell_tower,Person_E,Tower_Mumbai_South,Mumbai,,,Impossible transit alert
+EVT-019,2026-08-29 16:00:00,CALL,telecom_cdr,Person_B,Person_D,Delhi,300,,Debrief call
+EVT-020,2026-08-29 16:30:00,CALL,telecom_cdr,Person_B,Person_E,Delhi,240,,Evening report
+EVT-021,2026-08-29 17:00:00,CALL,telecom_cdr,Person_B,Person_F,Delhi,180,,Account settlement
+EVT-022,2026-08-29 17:30:00,MESSAGE,sms_gateway,Person_B,Phone_9811002233,Delhi,,,Unknown contact ping
+EVT-023,2026-08-29 18:00:00,TRANSACTION,bank_ledger,Person_B,Account_998877,Delhi,,50000,Payment to burner account

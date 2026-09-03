@@ -1,0 +1,232 @@
+[
+  {
+    "id": "JSON-001",
+    "datetime": "2026-08-29T09:15:00",
+    "type": "CALL",
+    "origin": "telecom_cdr",
+    "sender": "Person_A",
+    "receiver": "Person_B",
+    "city": "Delhi",
+    "meta": { "duration": 180, "note": "Routine check-in call" }
+  },
+  {
+    "id": "JSON-002",
+    "datetime": "2026-08-29T10:30:00",
+    "type": "MESSAGE",
+    "origin": "sms_gateway",
+    "sender": "Person_D",
+    "receiver": "Person_E",
+    "city": "Noida",
+    "meta": { "note": "Meeting scheduled for evening" }
+  },
+  {
+    "id": "JSON-003",
+    "datetime": "2026-08-29T11:00:00",
+    "type": "TRANSACTION",
+    "origin": "bank_ledger",
+    "sender": "Person_B",
+    "receiver": "Person_F",
+    "city": "Delhi",
+    "meta": { "amount": 15000, "note": "Consulting fee transfer" }
+  },
+  {
+    "id": "JSON-004",
+    "datetime": "2026-08-29T14:00:00",
+    "type": "CALL",
+    "origin": "telecom_cdr",
+    "sender": "Person_A",
+    "receiver": "Person_B",
+    "city": "Delhi",
+    "meta": { "duration": 45, "note": "Urgent coordination call" }
+  },
+  {
+    "id": "JSON-005",
+    "datetime": "2026-08-29T14:04:00",
+    "type": "CALL",
+    "origin": "telecom_cdr",
+    "sender": "Person_A",
+    "receiver": "Person_B",
+    "city": "Delhi",
+    "meta": { "duration": 60, "note": "Follow-up call" }
+  },
+  {
+    "id": "JSON-006",
+    "datetime": "2026-08-29T14:08:00",
+    "type": "MESSAGE",
+    "origin": "sms_gateway",
+    "sender": "Person_A",
+    "receiver": "Person_B",
+    "city": "Delhi",
+    "meta": { "note": "Encrypted token sent" }
+  },
+  {
+    "id": "JSON-007",
+    "datetime": "2026-08-29T14:12:00",
+    "type": "MESSAGE",
+    "origin": "sms_gateway",
+    "sender": "Person_B",
+    "receiver": "Person_C",
+    "city": "Delhi",
+    "meta": { "note": "Action required at warehouse" }
+  },
+  {
+    "id": "JSON-008",
+    "datetime": "2026-08-29T14:15:00",
+    "type": "CALL",
+    "origin": "telecom_cdr",
+    "sender": "Person_A",
+    "receiver": "Person_C",
+    "city": "Delhi",
+    "meta": { "duration": 120, "note": "Direct confirmation" }
+  },
+  {
+    "id": "JSON-009",
+    "datetime": "2026-08-29T14:18:00",
+    "type": "CALL",
+    "origin": "telecom_cdr",
+    "sender": "Person_A",
+    "receiver": "Person_B",
+    "city": "Delhi",
+    "meta": { "duration": 30, "note": "Status update" }
+  },
+  {
+    "id": "JSON-010",
+    "datetime": "2026-08-29T14:22:00",
+    "type": "TRANSACTION",
+    "origin": "bank_ledger",
+    "sender": "Person_C",
+    "receiver": "Person_D",
+    "city": "Delhi",
+    "meta": { "amount": 250000, "note": "High-value instant transfer" }
+  },
+  {
+    "id": "JSON-011",
+    "datetime": "2026-08-29T14:25:00",
+    "type": "CALL",
+    "origin": "telecom_cdr",
+    "sender": "Person_A",
+    "receiver": "Person_B",
+    "city": "Delhi",
+    "meta": { "duration": 90, "note": "Transfer confirmed" }
+  },
+  {
+    "id": "JSON-012",
+    "datetime": "2026-08-29T14:28:00",
+    "type": "MESSAGE",
+    "origin": "sms_gateway",
+    "sender": "Person_A",
+    "receiver": "Person_D",
+    "city": "Delhi",
+    "meta": { "note": "Dispatch package now" }
+  },
+  {
+    "id": "JSON-013",
+    "datetime": "2026-08-29T14:32:00",
+    "type": "CALL",
+    "origin": "telecom_cdr",
+    "sender": "Person_A",
+    "receiver": "Person_B",
+    "city": "Delhi",
+    "meta": { "duration": 40, "note": "Checkpoint clear" }
+  },
+  {
+    "id": "JSON-014",
+    "datetime": "2026-08-29T14:35:00",
+    "type": "LOCATION_PING",
+    "origin": "cell_tower",
+    "sender": "Person_D",
+    "receiver": "Tower_Noida_Sector62",
+    "city": "Noida",
+    "meta": { "note": "Cell tower triangulation ping" }
+  },
+  {
+    "id": "JSON-015",
+    "datetime": "2026-08-29T14:38:00",
+    "type": "CALL",
+    "origin": "telecom_cdr",
+    "sender": "Person_A",
+    "receiver": "Person_E",
+    "city": "Delhi",
+    "meta": { "duration": 55, "note": "Secondary notification" }
+  },
+  {
+    "id": "JSON-016",
+    "datetime": "2026-08-29T14:40:00",
+    "type": "MESSAGE",
+    "origin": "sms_gateway",
+    "sender": "Person_A",
+    "receiver": "Person_B",
+    "city": "Delhi",
+    "meta": { "note": "Operation complete" }
+  },
+  {
+    "id": "JSON-017",
+    "datetime": "2026-08-29T15:00:00",
+    "type": "LOCATION_PING",
+    "origin": "cell_tower",
+    "sender": "Person_E",
+    "receiver": "Tower_Delhi_Central",
+    "city": "Delhi",
+    "meta": { "note": "Tower location snapshot" }
+  },
+  {
+    "id": "JSON-018",
+    "datetime": "2026-08-29T15:15:00",
+    "type": "LOCATION_PING",
+    "origin": "cell_tower",
+    "sender": "Person_E",
+    "receiver": "Tower_Mumbai_South",
+    "city": "Mumbai",
+    "meta": { "note": "Impossible transit alert" }
+  },
+  {
+    "id": "JSON-019",
+    "datetime": "2026-08-29T16:00:00",
+    "type": "CALL",
+    "origin": "telecom_cdr",
+    "sender": "Person_B",
+    "receiver": "Person_D",
+    "city": "Delhi",
+    "meta": { "duration": 300, "note": "Debrief call" }
+  },
+  {
+    "id": "JSON-020",
+    "datetime": "2026-08-29T16:30:00",
+    "type": "CALL",
+    "origin": "telecom_cdr",
+    "sender": "Person_B",
+    "receiver": "Person_E",
+    "city": "Delhi",
+    "meta": { "duration": 240, "note": "Evening report" }
+  },
+  {
+    "id": "JSON-021",
+    "datetime": "2026-08-29T17:00:00",
+    "type": "CALL",
+    "origin": "telecom_cdr",
+    "sender": "Person_B",
+    "receiver": "Person_F",
+    "city": "Delhi",
+    "meta": { "duration": 180, "note": "Account settlement" }
+  },
+  {
+    "id": "JSON-022",
+    "datetime": "2026-08-29T17:30:00",
+    "type": "MESSAGE",
+    "origin": "sms_gateway",
+    "sender": "Person_B",
+    "receiver": "Phone_9811002233",
+    "city": "Delhi",
+    "meta": { "note": "Unknown contact ping" }
+  },
+  {
+    "id": "JSON-023",
+    "datetime": "2026-08-29T18:00:00",
+    "type": "TRANSACTION",
+    "origin": "bank_ledger",
+    "sender": "Person_B",
+    "receiver": "Account_998877",
+    "city": "Delhi",
+    "meta": { "amount": 50000, "note": "Payment to burner account" }
+  }
+]
